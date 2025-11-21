@@ -1,9 +1,10 @@
-/api/v1/sentiment
+# /api/v1/sentiment
 {
   "text": "string",
   "method": "afinn | syuzhet | nrc",
   "return_tokens": "boolean"
 }
+
 {
   "overall_score": 0.82,
   "sentiment_distribution": {
@@ -18,6 +19,8 @@
     }
   ]
 }
+
+# Get api
 {
   "status": "online",
   "timestamp": "2025-11-20T13:42Z"
