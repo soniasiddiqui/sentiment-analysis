@@ -28,7 +28,7 @@ library(httr)
 library(jsonlite)
 
 response <- POST(
-  url = http://localhost/api/v1/sentiment/analyze (insert link),
+  url = "(insert link)",
   body = list(
     text = "The provider described the process as helpful but overwhelming.",
     method = "nrc",
